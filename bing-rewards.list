@@ -1,4 +1,5 @@
 DOMAIN-SUFFIX,bing.com,extended-matching
+DOMAIN-SUFFIX,appcenter.ms,extended-matching
 DOMAIN-SUFFIX,microsoft.com,extended-matching
 DOMAIN-SUFFIX,bing.net,extended-matching
 DOMAIN-SUFFIX,bingapis.com,extended-matching
