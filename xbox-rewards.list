@@ -1,6 +1,7 @@
 DOMAIN-SUFFIX,xboxlive.com,extended-matching
 DOMAIN-KEYWORD,xboxlive,extended-matching
 DOMAIN-SUFFIX,microsoft.com,extended-matching
+DOMAIN-SUFFIX,gamepass.com,extended-matching
 #XBOX
 DOMAIN,title.mgt.xboxlive.com,extended-matching
 DOMAIN,self.events.data.microsoft.com,extended-matching
