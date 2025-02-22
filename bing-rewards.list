@@ -10,5 +10,10 @@ DOMAIN-SUFFIX,msauth.net,extended-matching
 DOMAIN-SUFFIX,microsoftonline.com,extended-matching
 DOMAIN-SUFFIX,azureedge.net,extended-matching
 DOMAIN-SUFFIX,clarity.ms,extended-matching
+DOMAIN-SUFFIX,s-microsoft.com,extended-matching
+DOMAIN-SUFFIX,gfx.ms,extended-matching
+DOMAIN-SUFFIX,scorecardresearch.com,extended-matching
+DOMAIN-SUFFIX,static.microsoft,extended-matching
 DOMAIN-KEYWORD,msn,extended-matching
 DOMAIN-KEYWORD,bing,extended-matching
+DOMAIN-KEYWORD,microsoft,extended-matching
