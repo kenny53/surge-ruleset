@@ -22,3 +22,5 @@ DOMAIN-SUFFIX,meituan.net,extended-matching
 DOMAIN-SUFFIX,qq.com.cn,extended-matching
 DOMAIN-SUFFIX,qpic.cn,extended-matching
 DOMAIN-SUFFIX,qq.com,extended-matching
+DOMAIN-SUFFIX,xhscdn.com,extended-matching
+DOMAIN-SUFFIX,wxlivecdn.com,extended-matching
