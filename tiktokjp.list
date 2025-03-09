@@ -2,8 +2,6 @@ DOMAIN-SUFFIX,tiktok.com,extended-matching
 DOMAIN-SUFFIX,tiktokv.com,extended-matching
 DOMAIN-SUFFIX,tiktokcdn.com,extended-matching
 DOMAIN-SUFFIX,ttwstatic.com,extended-matching
-DOMAIN-SUFFIX,appsflyer.com,extended-matching
-DOMAIN-SUFFIX,appsflyersdk.com,extended-matching
 DOMAIN-SUFFIX,ibytedtos.com,extended-matching
 DOMAIN-SUFFIX,tiktokcdn-eu.com,extended-matching
 DOMAIN-KEYWORD,tiktok,extended-matching
