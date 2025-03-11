@@ -38,3 +38,4 @@ DOMAIN-SUFFIX,youku.com,extended-matching
 DOMAIN-SUFFIX,163.com,,extended-matching
 DOMAIN-SUFFIX,weixin.com,extended-matching
 DOMAIN-SUFFIX,baidu.com,extended-matching
+DOMAIN-SUFFIX,tencent-cloud.net,extended-matching
