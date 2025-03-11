@@ -24,3 +24,17 @@ DOMAIN-SUFFIX,qpic.cn,extended-matching
 DOMAIN-SUFFIX,qq.com,extended-matching
 DOMAIN-SUFFIX,xhscdn.com,extended-matching
 DOMAIN-SUFFIX,wxlivecdn.com,extended-matching
+DOMAIN-SUFFIX,tlivedns.com,extended-matching
+DOMAIN-SUFFIX,tlivesource.com,extended-matching
+DOMAIN-SUFFIX,ljcdn.com,extended-matching
+DOMAIN-SUFFIX,xiaohongshu.com,extended-matching
+DOMAIN-SUFFIX,qq.com,extended-matching
+DOMAIN-SUFFIX,umeng.com,extended-matching
+DOMAIN-SUFFIX,uc.cn,extended-matching
+DOMAIN-SUFFIX,douyinpic.com,extended-matching
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com,extended-matching
+DOMAIN-SUFFIX,ykimg.com,extended-matching
+DOMAIN-SUFFIX,youku.com,extended-matching
+DOMAIN-SUFFIX,163.com,,extended-matching
+DOMAIN-SUFFIX,weixin.com,extended-matching
+DOMAIN-SUFFIX,baidu.com,extended-matching
