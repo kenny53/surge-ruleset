@@ -1,4 +1,8 @@
-#IKBR
+# NAME: stock (Brokers: IBKR / Futu / Schwab)
+# 券商行情分流规则集 — 盈透 / 富途 / 嘉信
+# 基于 kenny53/surge-ruleset stock.list 融合补充
+
+#IBKR
 DOMAIN-SUFFIX,ibkr.ca
 DOMAIN-SUFFIX,ibkr.co.in
 DOMAIN-SUFFIX,ibkr.co.uk
@@ -9,7 +13,9 @@ DOMAIN-SUFFIX,ibkr.com.sg
 DOMAIN-SUFFIX,ibkr.eu
 DOMAIN-SUFFIX,ibkr.ie
 DOMAIN-SUFFIX,ibkrguides.com
+DOMAIN-SUFFIX,ibkrcampus.com
 DOMAIN-SUFFIX,ibllc.com
+DOMAIN-SUFFIX,ibgroup.com
 DOMAIN-SUFFIX,interactivebrokers.ca
 DOMAIN-SUFFIX,interactivebrokers.co.in
 DOMAIN-SUFFIX,interactivebrokers.co.jp
@@ -20,23 +26,40 @@ DOMAIN-SUFFIX,interactivebrokers.com.hk
 DOMAIN-SUFFIX,interactivebrokers.com.sg
 DOMAIN-SUFFIX,interactivebrokers.eu
 DOMAIN-SUFFIX,interactivebrokers.ie
+# 注: TWS/IB Gateway 桌面端行情(4000)/交易(4001)走直连 IP+端口,
+#     若桌面端行情未走代理需抓包补对应 IP-CIDR
+
 #FUTU
+DOMAIN-SUFFIX,futu.cn
+DOMAIN-SUFFIX,futu.com
+DOMAIN-SUFFIX,futu.link
+DOMAIN-SUFFIX,futu0.com
+DOMAIN-SUFFIX,futu1.com
+DOMAIN-SUFFIX,futu2.com
+DOMAIN-SUFFIX,futu3.com
+DOMAIN-SUFFIX,futu4.com
+DOMAIN-SUFFIX,futu5.com
+DOMAIN-SUFFIX,futu6.com
+DOMAIN-SUFFIX,futu7.com
+DOMAIN-SUFFIX,futu8.com
+DOMAIN-SUFFIX,futu9.com
+DOMAIN-SUFFIX,futubull.cn
+DOMAIN-SUFFIX,futuchain.com
 DOMAIN-SUFFIX,futuesop.com
 DOMAIN-SUFFIX,futufin.com
 DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,futuhk2.com
 DOMAIN-SUFFIX,futuhkapp.com
 DOMAIN-SUFFIX,futuhn.com
 DOMAIN-SUFFIX,futuholdings.com
+DOMAIN-SUFFIX,futuinc.com
 DOMAIN-SUFFIX,futuniuniu.com
 DOMAIN-SUFFIX,futunn.com
 DOMAIN-SUFFIX,futustatic.com
 DOMAIN-SUFFIX,moomoo.com
 DOMAIN-SUFFIX,moomooequity.com
 DOMAIN-SUFFIX,moomootrustee.com
-IP-CIDR,119.28.37.77/24,no-resolve
-IP-CIDR,43.153.233.212/24,no-resolve
-IP-CIDR,124.156.233.21/24,no-resolve
-IP-CIDR,170.106.49.68/24,no-resolve
+# 富途行情服务器 (腾讯云段, 覆盖广但非富途独占, 覆盖优先保留)
 IP-CIDR,129.226.96.0/20,no-resolve
 IP-CIDR,81.71.64.0/18,no-resolve
 IP-CIDR,43.135.64.0/18,no-resolve
@@ -47,11 +70,18 @@ IP-CIDR,106.55.128.0/18,no-resolve
 IP-CIDR,124.156.144.0/22,no-resolve
 IP-CIDR,101.33.100.0/22,no-resolve
 IP-CIDR,101.32.132.0/22,no-resolve
+
 #SCHWAB
 DOMAIN-SUFFIX,aboutschwab.com
+DOMAIN-SUFFIX,ameritrade.com
 DOMAIN-SUFFIX,schwab.co.uk
 DOMAIN-SUFFIX,schwab.com
 DOMAIN-SUFFIX,schwab.com.hk
 DOMAIN-SUFFIX,schwab.com.sg
+DOMAIN-SUFFIX,schwabadvisorcenter.com
+DOMAIN-SUFFIX,schwabapi.com
 DOMAIN-SUFFIX,schwabassetmanagement.com
+DOMAIN-SUFFIX,schwabinstitutional.com
 DOMAIN-SUFFIX,schwabplan.com
+DOMAIN-SUFFIX,tdameritrade.com
+DOMAIN-SUFFIX,thinkorswim.com
